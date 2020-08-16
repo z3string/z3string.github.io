@@ -1,6 +1,6 @@
-- name: The Satisfiability of Extended Word Equations: The Boundary Between Decidability and Undecidability
-  paperurl: https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2
+- name: "The Satisfiability of Extended Word Equations: The Boundary Between Decidability and Undecidability"
+  paperurl: "https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2"
   authors: Joel Day, Vijay Ganesh, Paul He, Florin Manea, and Dirk Nowotka
   conference: The 12th International Conference on Reachability Problems (RP 2018), Marseille, France, September 24-26, 2018
-  bibentry: https://dblp.uni-trier.de/rec/bibtex/conf/rp/DayGHMN18
-  abstract: https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2
+  bibentry: "https://dblp.uni-trier.de/rec/bibtex/conf/rp/DayGHMN18"
+  abstract: "https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2"
