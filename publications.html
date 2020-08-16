@@ -13,6 +13,7 @@ title: Publications / Presentations
     <a href="{{ item.paperurl }}">{{ item.name }}</a> <br />
     {{ item.authors }} <br />
     {{ item.conference }} <br />
+    {% if item.award %}<span style="color:red">{{ item.award }}</span><br />{% endif %}
     {% if item.bibentry %}(<a href="{{ item.bibentry }}">bibentry</a>) {% endif %}{% if item.abstract %}(<a href="{{ item.abstract }}">abstract</a>) {% endif %}{% if item.bibentry or item.abstract %}<br />{% endif %}
   </li>
   {% endfor %}

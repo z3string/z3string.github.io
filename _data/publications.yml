@@ -4,3 +4,22 @@
   conference: The 12th International Conference on Reachability Problems (RP 2018), Marseille, France, September 24-26, 2018
   bibentry: "https://dblp.uni-trier.de/rec/bibtex/conf/rp/DayGHMN18"
   abstract: "https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2"
+- name: "StringFuzz: A Fuzzer for String Solvers"
+  paperurl: "https://drive.google.com/file/d/11maR7uDIlkd-f7ry5VBUVz-txUcd_FFU/view?usp=sharing"
+  authors: Dmitry Blotsky, Federico Mora, Murphy Berzish, Yunhui Zheng, Ifaz Kabir, and Vijay Ganesh
+  conference: The 30th International Conference on Computer Aided Verification (CAV 2018), Oxford, United Kingdom, July 14-17, 2018
+  bibentry: "https://dblp.org/rec/conf/cav/BlotskyMBZKG18"
+  abstract: "https://link.springer.com/chapter/10.1007%2F978-3-319-96142-2_6"
+- name: "Z3str3: A String Solver with Theory-Aware Heuristics"
+  paperurl: "https://drive.google.com/open?id=19N8kQkZUW2hWa7utTER93DW4vkx8dyJa"
+  authors: Murphy Berzish, Vijay Ganesh, and Yunhui Zheng
+  conference: Formal Methods in Computer-Aided Design (FMCAD), Vienna, Austria, October 2017
+  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/fmcad/BerzishGZ17"
+  abstract: "http://ieeexplore.ieee.org/abstract/document/8102241/"
+- name: "Z3str2: An Efficient Solver for Strings, Regular Expressions, and Length Constraints"
+  paperurl: "https://ece.uwaterloo.ca/~vganesh/Publications_files/vg2016-Z3str2-FMSD2016-Journal.pdf"
+  authors: Yunhui Zheng, Vijay Ganesh, Sanu Subramanian, Omer Tripp, Murphy Berzish,  Julian Dolby and Xiangyu Zhang
+  conference:  Formal Methods in Systems Design, Volume 50, Issue 2, pp.249-288, June 2017
+  award:  Invited paper at the Formal Methods in Systems Design Journal (FMSD 2017)
+  bibentry: "http://dblp.uni-trier.de/rec/bibtex/journals/fmsd/ZhengGSTBDZ17"
+  abstract: "http://link.springer.com/article/10.1007/s10703-016-0263-6?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst"
