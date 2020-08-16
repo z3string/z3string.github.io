@@ -1,0 +1,15 @@
+- presenter: Vijay Ganesh
+  title: "Theory and Practice of String Solvers"
+  slides: "https://drive.google.com/file/d/1I8IqvCGwyCXV4c2emYHJAsDtbGriTAeo/view?usp=sharing"
+  conference: ISSTA 2019
+  conferenceurl: "https://conf.researchr.org/home/issta-2019"
+  conferencedate: "Keynote Talk. Beijing, China. July 2019"
+- presenter: Murphy Berzish
+  title: "Length-Aware Regular Expression Solving in Z3str3"
+  slides: "https://docs.google.com/presentation/d/1Am3LyOBDanH5IsVD_p8Resg6CqDywvVupHZ2ZLYiv6I/edit?usp=sharing"
+  conference: MOSCA 2019
+  conferenceurl: "https://mosca19.github.io/"
+  conferencedate: "Bertinoro, Italy. May 2019"
+- presenter: Murphy Berzish
+  title: "Architectural Overview of Z3 and Z3str3"
+  slides: "https://docs.google.com/presentation/d/1wQI-kb4TfVTjjiHiyQwGQjUuI8ePYflw2qAS1btlgD4/edit?usp=sharing"
