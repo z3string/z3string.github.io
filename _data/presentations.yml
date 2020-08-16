@@ -13,3 +13,38 @@
 - presenter: Murphy Berzish
   title: "Architectural Overview of Z3 and Z3str3"
   slides: "https://docs.google.com/presentation/d/1wQI-kb4TfVTjjiHiyQwGQjUuI8ePYflw2qAS1btlgD4/edit?usp=sharing"
+- presenter: Vijay Ganesh
+  title: "Z3str3: A String Solver with Theory-Aware Heuristics"
+  slides: "https://drive.google.com/open?id=0B9BmhKRWK_MdVE1MWFNjZ196bFk"
+  conference: SMT 2017
+  conferenceurl: "http://smt-workshop.cs.uiowa.edu/2017/"
+  conferencedate: "(presentation-only paper). Heidelberg, Germany. July 2017"
+- presenter: Murphy Berzish
+  title: "Z3str3: A DPLL(T) Solver for a Theory of Strings and Integers"
+  slides: "https://drive.google.com/file/d/0B9BmhKRWK_MdSjhGTFhCLXZJLVk/view?usp=sharing"
+  conference: HCSS 2017
+  conferenceurl: "http://cps-vo.org/group/hcss_conference"
+  conferencedate: "Annapolis, USA. May 2016"
+- presenter: Murphy Berzish
+  title: "Z3strBV: A Solver for a Theory of Strings and Bit-vectors"
+  slides: "https://drive.google.com/file/d/0B9BmhKRWK_MdUzkzZnk3YzgzQ2s/view?usp=sharing"
+  conference: SMT 2016
+  conferenceurl: "http://smt-workshop.cs.uiowa.edu/2016/"
+  conferencedate: "(presentation-only paper). Coimbra, Portugal. July 2016"
+- presenter: Yunhui Zheng
+  title: "A String, Regular Expression, and Integer Solver for Bug-finding and Security"
+  slides: "https://drive.google.com/file/d/0BwScZBt2D79mTURFWGl5RXRMcGM/view?usp=sharing"
+  conference: HCSS 2016
+  conferenceurl: "http://cps-vo.org/group/hcss_conference"
+  conferencedate: Annapolis, USA. May 2016
+- presenter: Yunhui Zheng
+  title: "Effective Search-space Pruning for Solvers of String Equations, Regular Expressions and Length Constraints"
+  slides: "https://drive.google.com/open?id=0BwScZBt2D79mbF9FX2I1OGlPNzQ"
+  conference: CAV 2015
+  conferenceurl: "http://i-cav.org/2015/"
+  conferencedate: San Francisco, USA. Jul 2015
+- presenter: Yunhui Zheng
+  title: "Z3-str: a Z3-based string solver for web application analysis"
+  conference: ESEC/FSE 2013
+  conferenceurl: "http://esec-fse.inf.ethz.ch/"
+  conferencedate: Saint Petersburg, Russia. Aug 2013
