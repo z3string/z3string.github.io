@@ -23,3 +23,52 @@
   award:  Invited paper at the Formal Methods in Systems Design Journal (FMSD 2017)
   bibentry: "http://dblp.uni-trier.de/rec/bibtex/journals/fmsd/ZhengGSTBDZ17"
   abstract: "http://link.springer.com/article/10.1007/s10703-016-0263-6?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst"
+- name: "A Solver for a Theory of Strings and Bit-Vectors"
+  paperurl: "https://arxiv.org/pdf/1605.09446v1"
+  authors: Murphy Berzish, Sanu Subramanian, Omer Tripp, and Vijay Ganesh
+  conference: Accepted for publication at International Conference on Software Engineering (ICSE 2017) Poster Track, Buenos Aires, Argentina, May 20-28, 2017
+- name: "Undecidability of a Theory of Strings, Linear Arithmetic over Length, and String-Number Conversion"
+  paperurl: "https://arxiv.org/abs/1605.09442"
+  authors: Vijay Ganesh and Murphy Berzish
+  conference: arXiv preprint 1605.094442, May 2016
+  bibentry: "http://dblp.uni-trier.de/rec/bibtex/journals/corr/GaneshB16"
+  abstract: "https://arxiv.org/abs/1605.09442"
+- name: "Effective Search-space Pruning for Solvers of String Equations, Regular Expressions and Length Constraints"
+  paperurl: "https://ece.uwaterloo.ca/~vganesh/Publications_files/vg2015-Z3str2-CAV15.pdf"
+  authors: Yunhui Zheng, Vijay Ganesh, Sanu Subramanian, Omer Tripp, Julian Dolby and Xiangyu Zhang
+  conference: The 27th International Conference on Computer Aided Verification (CAV 2015), Artifact Evaluated, July 2015
+  award: Paper selected for Formal Methods for System Design Journal, Special Issue dedicated to the Best Papers at CAV’15
+  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/cav/ZhengGSTDZ15"
+  abstract: "http://link.springer.com/chapter/10.1007%2F978-3-319-21690-4_14"
+- name: "Z3-str: a z3-based string solver for web application analysis"
+  paperurl: "http://zyh1121.github.io/pdf/fse13.pdf"
+  authors: Yunhui Zheng, Xiangyu Zhang and Vijay Ganesh
+  conference: In Proceedings of the 2013 9th Joint Meeting on Foundations of Software Engineering (ESEC/FSE 2013) , Saint Petersburg, Russia, Aug. 18-26, 2013
+  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/sigsoft/ZhengZG13"
+  abstract: "http://dl.acm.org/citation.cfm?doid=2491411.2491456"
+- name: "Hampi: A Solver for Word Equations over Strings, Regular Expressions and Context-Free Grammar"
+  paperurl: "https://ece.uwaterloo.ca/~vganesh/Publications_files/vg2011-HAMPI-TOSEM-Journal.pdf"
+  authors:  Vijay Ganesh, Adam Kiezun, Philip Guo, Pieter Hooimiejer, and Michael Ernst
+  conference:  ACM Transactions of Software Engineering Methodology, Volume 21, Issue 4 (TOSEM 2012)
+  award:  Invited Paper to the ACM TOSEM Journal 2012
+  bibentry: "http://dblp.uni-trier.de/rec/bibtex/journals/tosem/KiezunGAGHE12"
+  abstract: "http://dl.acm.org/citation.cfm?doid=2377656.2377662"
+- name: "Word Equations with Length Constraints: What's Decidable?"
+  paperurl: "https://ece.uwaterloo.ca/~vganesh/Publications_files/vg2012-Undecidability-Strings-HVC2012.pdf"
+  authors:  Vijay Ganesh, Mia Minnes, Armando Solar-Lezama, and Martin Rinard
+  conference:  In the 8th International Haifa Verification Conference (HVC 2012), Haifa, Israel, Nov. 6-8, 2012
+  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/hvc/GaneshMSR12"
+  abstract: "http://link.springer.com/chapter/10.1007%2F978-3-642-39611-3_21"
+- name: "Hampi: A String Solver for Testing, Analysis, and Vulnerability Detection"
+  paperurl: "https://ece.uwaterloo.ca/~vganesh/Publications_files/vg2011-HAMPI-CAV2011.pdf"
+  authors:  Vijay Ganesh, Adam Kiezun, Shay Artzi, Philip Guo, Pieter Hooimiejer, and Michael Ernst
+  conference:  In Proceedings of the International Conference in Computer Aided Verification (CAV 2011), Snowbird, Utah, July 2011
+  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/cav/GaneshKAGHE11"
+  abstract: "http://www.springerlink.com/content/c237462521422h13/"
+- name: "Hampi: A Solver for String Constraints"
+  paperurl: "https://ece.uwaterloo.ca/~vganesh/Publications_files/vg-ISSTA2009-Hampi.pdf"
+  authors:  Adam Kiezun, Vijay Ganesh, Philip Guo, Pieter Hooimiejer, and Michael Ernst
+  conference:  In Proceedings of the International Symposium on Testing and Analysis (ISSTA 2009), Chicago, USA, July 19-23, 2009
+  award:  ACM Distinguished Paper Award 2009
+  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/issta/KiezunGGHE09"
+  abstract: "http://dl.acm.org/citation.cfm?doid=1572272.1572286"
