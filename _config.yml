@@ -1,6 +1,5 @@
-name: Z3 String Solver
-site.title: Z3 String Solver
-site.description: A first-class solver for the theory of strings in Z3
+title: Z3 String Solver
+description: A first-class solver for the theory of strings in Z3
 markdown: kramdown
 theme: jekyll-theme-slate
 
