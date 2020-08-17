@@ -1,4 +1,4 @@
-title: Z3 String Solver
+title: Z3 String Constraint Solver
 description: A first-class solver for the theory of strings in Z3
 markdown: kramdown
 theme: jekyll-theme-slate
