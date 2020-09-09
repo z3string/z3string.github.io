@@ -10,6 +10,7 @@ title: People
 ## Main Authors
 
 * Murphy Berzish, University of Waterloo
+* [Yunhui Zheng](http://researcher.ibm.com/researcher/view.php?person=us-zhengyu), IBM T.J. Watson Research Center
 
 ## Collaborators (in alphabetical order)
 
@@ -18,4 +19,3 @@ title: People
 * [Dirk Nowotka](http://zs.uni-kiel.de/en), Kiel University
 * [Sanu Subramanian](http://ca.linkedin.com/in/sanues/), University of Waterloo
 * [Xiangyu Zhang](http://www.cs.purdue.edu/homes/xyzhang/), Purdue University
-* [Yunhui Zheng](http://researcher.ibm.com/researcher/view.php?person=us-zhengyu), IBM T.J. Watson Research Center
