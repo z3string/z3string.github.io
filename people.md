@@ -3,7 +3,7 @@ layout: default
 title: People
 ---
 
-## Project Leads
+## Project Leader
 
 * [Vijay Ganesh](https://ece.uwaterloo.ca/~vganesh/), University of Waterloo
 
