@@ -1,7 +1,7 @@
 = Z3str3RE
 :toc: left
 :stem:
-This file describes how to compile and install Z3str3RE and setup the benchmark infrastructure including the used benchmark sets to reproduce the results presented in the corresponding submission. We present a novel length-aware decision procedure for the quantifier-free first-order theory over regex membership predicate and linear arithmetic over string length. Motivated by program analysis, security, and verification applications, we implemented and evaluated this algorithm and related heuristics in the Z3 theorem prover. The artifact we present here is this implementation, which we call Z3str3RE. We showcase the power of our algorithm via an extensive empirical evaluation over a large and diverse benchmark of over 57000 regex-heavy instances, over 75% of which are derived from industrial applications, that include instances contributed by other solver developers. Our solver outperforms five other state-of-the-art string solvers, namely, CVC4, OSTRICH, Z3seq, Z3str3, and Z3-Trau, over this benchmark, in particular achieving a 2.4x speedup over CVC4, 4.4x speedup over Z3seq, 6.4x speedup over Z3-Trau, 9.1x speedup over Z3str3, and 13x speedup over OSTRICH. The implemented solver will be merged into the mainline Z3 solver (https://github.com/Z3Prover/z3) once the algorithm is published.
+This file describes how to compile and install Z3str3RE and setup the benchmark infrastructure including the used benchmark sets to reproduce the results presented in the corresponding submission.We present a novel length-aware solving algorithm for the quantifier-free first-order theory over regex membership predicate and linear arithmetic over string length. We implement and evaluate this algorithm and related heuristics in the Z3 theorem prover. A crucial insight that underpins our algorithm is that real-world instances contain a wealth of information about upper and lower bounds on lengths of strings under constraints, and such information can be used very effectively to simplify operations on automata representing regular expressions. Additionally, we present a number of novel general heuristics, such as the prefix/suffix method, that can be used in conjunction with a variety of regex solving algorithms, making them more efficient. We showcase the power of our algorithm and heuristics via an extensive empirical evaluation over a large and diverse benchmark of 57256 regex-heavy instances, almost 75% of which are derived from industrial applications or contributed by other solver developers. Our solver outperforms five other state-of-the-art string solvers, namely, CVC4, OSTRICH, Z3seq, Z3str3, and Z3-Trau, over this benchmark, in particular achieving a 2.4x speedup over CVC4, 4.4x speedup over Z3seq, 6.4x speedup over Z3-Trau, 9.1x speedup over Z3str3, and 13x speedup over OSTRICH.  The implemented solver will be merged into the mainline Z3 solver (https://github.com/Z3Prover/z3) once the algorithm is published.
 
 == Licences
 Our license file is called ``LICENSE.txt``. Since we included all solvers to whom we compared
@@ -62,10 +62,12 @@ To play around you can run the used benchmarks. They are located within the Zali
 Additionally we added three SMT-LIB formulas proposed by a reviewer of our paper (Thanks!). They are located within the `additional_inputs` folder within the root of our artifact.
 
 We provide additional parameters to deactivate the presented heuristics, that are 
-`smt.str.regex_automata_construct_linear_length_constraints=false` to disable deriving length information out of a constructed automaton,
-`smt.str.regex_automata_construct_bounds=false` to disable the arithmetic solver integration,
-`smt.str.regex_prefix_heuristic=false` to disable the prefix heuristics,
-`smt.str.regex_automata_length_attempt_threshold=0` and `smt.str.regex_automata_failed_intersection_threshold=0` to disable the lazy intersection of regular languages.
+
+- `smt.str.regex_automata_construct_linear_length_constraints=false` to disable deriving length information out of a constructed automaton,
+- `smt.str.regex_automata_construct_bounds=false` to disable the arithmetic solver integration,
+- `smt.str.regex_prefix_heuristic=false` to disable the prefix heuristics,
+- `smt.str.regex_automata_length_attempt_threshold=0` and `smt.str.regex_automata_failed_intersection_threshold=0` to disable the lazy intersection of regular languages.
+
 Combine all of these parameters to completely disable the heuristics, i.e.
 
 ```

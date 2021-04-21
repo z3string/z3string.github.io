@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="This file describes how to compile and install Z3str3RE and setup the benchmark infrastructure including the used benchmark sets to reproduce the results presented in the corresponding submission. We present a novel length-aware decision procedure for the quantifier-free first-order theory over regex membership predicate and linear arithmetic over string length. Motivated by program analysis, security, and verification applications, we implemented and evaluated this algorithm and related heuristics in the Z3 theorem prover. The artifact we present here is this implementation, which we call Z3str3RE. We showcase the power of our algorithm via an extensive empirical evaluation over a large and diverse benchmark of over 57000 regex-heavy instances, over 75% of which are derived from industrial applications, that include instances contributed by other solver developers. Our solver outperforms five other state-of-the-art string solvers, namely, CVC4, OSTRICH, Z3seq, Z3str3, and Z3-Trau, over this benchmark, in particular achieving a 2.4x speedup over CVC4, 4.4x speedup over Z3seq, 6.4x speedup over Z3-Trau, 9.1x speedup over Z3str3, and 13x speedup over OSTRICH. The implemented solver will be merged into the mainline Z3 solver (https://github.com/Z3Prover/z3) once the algorithm is published.">
+<meta name="author" content="This file describes how to compile and install Z3str3RE and setup the benchmark infrastructure including the used benchmark sets to reproduce the results presented in the corresponding submission.We present a novel length-aware solving algorithm for the quantifier-free first-order theory over regex membership predicate and linear arithmetic over string length. We implement and evaluate this algorithm and related heuristics in the Z3 theorem prover. A crucial insight that underpins our algorithm is that real-world instances contain a wealth of information about upper and lower bounds on lengths of strings under constraints, and such information can be used very effectively to simplify operations on automata representing regular expressions. Additionally, we present a number of novel general heuristics, such as the prefix/suffix method, that can be used in conjunction with a variety of regex solving algorithms, making them more efficient. We showcase the power of our algorithm and heuristics via an extensive empirical evaluation over a large and diverse benchmark of 57256 regex-heavy instances, almost 75% of which are derived from industrial applications or contributed by other solver developers. Our solver outperforms five other state-of-the-art string solvers, namely, CVC4, OSTRICH, Z3seq, Z3str3, and Z3-Trau, over this benchmark, in particular achieving a 2.4x speedup over CVC4, 4.4x speedup over Z3seq, 6.4x speedup over Z3-Trau, 9.1x speedup over Z3str3, and 13x speedup over OSTRICH. The implemented solver will be merged into the mainline Z3 solver (https://github.com/Z3Prover/z3) once the algorithm is published.">
 <title>Z3str3RE</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Z3str3RE</h1>
 <div class="details">
-<span id="author" class="author">This file describes how to compile and install Z3str3RE and setup the benchmark infrastructure including the used benchmark sets to reproduce the results presented in the corresponding submission. We present a novel length-aware decision procedure for the quantifier-free first-order theory over regex membership predicate and linear arithmetic over string length. Motivated by program analysis, security, and verification applications, we implemented and evaluated this algorithm and related heuristics in the Z3 theorem prover. The artifact we present here is this implementation, which we call Z3str3RE. We showcase the power of our algorithm via an extensive empirical evaluation over a large and diverse benchmark of over 57000 regex-heavy instances, over 75% of which are derived from industrial applications, that include instances contributed by other solver developers. Our solver outperforms five other state-of-the-art string solvers, namely, CVC4, OSTRICH, Z3seq, Z3str3, and Z3-Trau, over this benchmark, in particular achieving a 2.4x speedup over CVC4, 4.4x speedup over Z3seq, 6.4x speedup over Z3-Trau, 9.1x speedup over Z3str3, and 13x speedup over OSTRICH. The implemented solver will be merged into the mainline Z3 solver (https://github.com/Z3Prover/z3) once the algorithm is published.</span><br>
+<span id="author" class="author">This file describes how to compile and install Z3str3RE and setup the benchmark infrastructure including the used benchmark sets to reproduce the results presented in the corresponding submission.We present a novel length-aware solving algorithm for the quantifier-free first-order theory over regex membership predicate and linear arithmetic over string length. We implement and evaluate this algorithm and related heuristics in the Z3 theorem prover. A crucial insight that underpins our algorithm is that real-world instances contain a wealth of information about upper and lower bounds on lengths of strings under constraints, and such information can be used very effectively to simplify operations on automata representing regular expressions. Additionally, we present a number of novel general heuristics, such as the prefix/suffix method, that can be used in conjunction with a variety of regex solving algorithms, making them more efficient. We showcase the power of our algorithm and heuristics via an extensive empirical evaluation over a large and diverse benchmark of 57256 regex-heavy instances, almost 75% of which are derived from industrial applications or contributed by other solver developers. Our solver outperforms five other state-of-the-art string solvers, namely, CVC4, OSTRICH, Z3seq, Z3str3, and Z3-Trau, over this benchmark, in particular achieving a 2.4x speedup over CVC4, 4.4x speedup over Z3seq, 6.4x speedup over Z3-Trau, 9.1x speedup over Z3str3, and 13x speedup over OSTRICH. The implemented solver will be merged into the mainline Z3 solver (https://github.com/Z3Prover/z3) once the algorithm is published.</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -554,12 +554,26 @@ To use our Z3 including the presented regex algorithm and all heuristics you hav
 <p>Additionally we added three SMT-LIB formulas proposed by a reviewer of our paper (Thanks!). They are located within the <code>additional_inputs</code> folder within the root of our artifact.</p>
 </div>
 <div class="paragraph">
-<p>We provide additional parameters to deactivate the presented heuristics, that are
-<code>smt.str.regex_automata_construct_linear_length_constraints=false</code> to disable deriving length information out of a constructed automaton,
-<code>smt.str.regex_automata_construct_bounds=false</code> to disable the arithmetic solver integration,
-<code>smt.str.regex_prefix_heuristic=false</code> to disable the prefix heuristics,
-<code>smt.str.regex_automata_length_attempt_threshold=0</code> and <code>smt.str.regex_automata_failed_intersection_threshold=0</code> to disable the lazy intersection of regular languages.
-Combine all of these parameters to completely disable the heuristics, i.e.</p>
+<p>We provide additional parameters to deactivate the presented heuristics, that are</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>smt.str.regex_automata_construct_linear_length_constraints=false</code> to disable deriving length information out of a constructed automaton,</p>
+</li>
+<li>
+<p><code>smt.str.regex_automata_construct_bounds=false</code> to disable the arithmetic solver integration,</p>
+</li>
+<li>
+<p><code>smt.str.regex_prefix_heuristic=false</code> to disable the prefix heuristics,</p>
+</li>
+<li>
+<p><code>smt.str.regex_automata_length_attempt_threshold=0</code> and <code>smt.str.regex_automata_failed_intersection_threshold=0</code> to disable the lazy intersection of regular languages.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Combine all of these parameters to completely disable the heuristics, i.e.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -633,7 +647,7 @@ Our additional algorithm is triggered within z3str3&#8217;s core implementation 
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code>cd zaligvinder
-python3 startwebserver.py cav21.db</code></pre>
+python3 startwebserver.py cav.db</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -652,7 +666,7 @@ python3 tablegen.py</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>which will open a terminal gui. Select <code>cav21.db</code> as database and a place to store the output file&#8201;&#8212;&#8201;entering no output name stores the output data within the folder <code>zaligvinder/external_data/&lt;today&#8217;s_date&gt;</code>. Afterwards you are able to select the benchmark sets of your choice being present within our run and the solvers. Note, Z3str3-base is the implementation of our regex solver. Z3str3RE-none, Z3str3RE-li, Z3str3RE-psh, Z3str3RE-ali, and Z3str3RE-asi represent solvers being part of our heuristics experiment.</p>
+<p>which will open a terminal gui. Select <code>cav.db</code> as database and a place to store the output file&#8201;&#8212;&#8201;entering no output name stores the output data within the folder <code>zaligvinder/external_data/&lt;today&#8217;s_date&gt;</code>. Afterwards you are able to select the benchmark sets of your choice being present within our run and the solvers. Note, Z3str3-base is the implementation of our regex solver. Z3str3RE-none, Z3str3RE-li, Z3str3RE-psh, Z3str3RE-ali, and Z3str3RE-asi represent solvers being part of our heuristics experiment.</p>
 </div>
 <div class="paragraph">
 <p>Next step is selecting whether you want to generate the cactus plots, tables or the ASCII Doctor page.</p>
@@ -695,7 +709,7 @@ python3 tablegen.py</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-04-21 14:05:25 +0200
+Last updated 2021-04-21 18:42:59 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">
