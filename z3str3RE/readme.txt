@@ -12,9 +12,9 @@ our algorithm we included their licenses as well. They are located in the subfol
 === Quick Start
 We provide a VirtualBox virtual machine running Ubuntu 20.04 LTS being based on the Artifact Evaluation VM used for TACAS 21 (https://zenodo.org/record/4041464#.YBGm5C1Q1QI) by Sebastian Hjort Hyberts, Peter Gjøl Jensen and Thomas Neele and a package tweaked towards installing it on your own machine running Ubuntu 20.04 LTS.
 
-1. The virtual machine is available at https://zenodo.org/record/4477692#.YBlbaC1Q3SU After downloading load the virtual image within your VirtualBox environment. Whenever needed use username "re" and password "re". You can skip the "Install the prerequisites" section, since the virtual machine is already preconfigured.
-2. The installation package is part of this package. Extract the content by using 
-	```tar xf cav21.tar.gz```
+1. The virtual machine is available at https://zenodo.org/record/4714806#.YIK7QC0Rrfs After downloading load the virtual image within your VirtualBox environment (make sure you are using version 2 of the image). Whenever needed use username "re" and password "re". You can skip the "Install the prerequisites" section, since the virtual machine is already preconfigured.
+2. Download the installation package of our artefact at https://git.zs.informatik.uni-kiel.de/mku/z3str3re_artefact/-/raw/master/z3str3RE_artefact.tar.gz and untar it by executing
+	```tar xf z3str3RE_artefact.tar.gz```
 	Follow the instructions in the next section
 
 === Install the prerequisites 
