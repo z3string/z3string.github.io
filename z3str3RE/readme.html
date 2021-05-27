@@ -633,6 +633,67 @@ Our additional algorithm is triggered within z3str3&#8217;s core implementation 
 <p>After the ZaligVinder run has finished a webserver is started. You can review the results by guiding your browser to <a href="http://localhost:8081" class="bare">http://localhost:8081</a>.</p>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_performing_own_benchmark_runs_using_zaligvinder">Performing own benchmark runs using ZaligVinder</h4>
+<div class="paragraph">
+<p>In the need of running only a subset of the evaluated solvers or a subset of our benchmark sets there are only a few minor modifications necessary. Our runner scripts are located within the <code>zaligvinder</code>, namely</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>cav21.py</code> performs the full run with all solvers on all benchmarks,</p>
+</li>
+<li>
+<p><code>cav21_heu.py</code> performs the heuristics experiment on all benchmarks,</p>
+</li>
+<li>
+<p><code>cav21_sml.py</code> performs the full run with all solvers on a randomly selected small subset of our benchmarks,</p>
+</li>
+<li>
+<p><code>cav21_sml_heu.py</code> performs the heuristics experiment on a randomly selected small subset of our benchmarks.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>We will demonstrate the configuration based on the <code>cav21.py</code> runner.</p>
+</div>
+<div class="paragraph">
+<p>To disable a solver within one of our runners locate the list of solvers starting at line <code>31</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>for s in [tools.cvc4,
+          tools.ostrich,
+          tools.z3seq,
+          tools.z3str3,
+          tools.regExSolver,
+          tools.trau,
+]:</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Afterwards deactivate a solver by simply commenting it (e.g. <code>#tools.z3seq,</code>).</p>
+</div>
+<div class="paragraph">
+<p>To only run a subset of our benchmarks locate the list of tracks starting at line <code>23</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>tracks = (models.automatark.getTrackData()+
+          models.stringfuzzregexgenerated.getTrackData()+
+          models.stringfuzzregextransformed.getTrackData()+
+          models.RegExBenchmarks.getTrackData("RegEx Collected") +
+        []
+        )</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Again, to deactivate a set, simply comment it (e.g. <code>#models.stringfuzzregexgenerated.getTrackData()+</code>).</p>
+</div>
+<div class="paragraph">
+<p>You can start your run by using the provided scripts or simply executing <code>python3 cav21.py</code>.</p>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_further_post_analysis_steps">Further post analysis steps</h3>
@@ -709,7 +770,7 @@ python3 tablegen.py</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-04-23 15:07:29 +0200
+Last updated 2021-05-27 23:22:18 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">

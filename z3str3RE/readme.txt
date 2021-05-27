@@ -106,6 +106,47 @@ bash runBenchmarksHeuristicsSmall.sh
 
 After the ZaligVinder run has finished a webserver is started. You can review the results by guiding your browser to http://localhost:8081.
 
+
+==== Performing own benchmark runs using ZaligVinder
+
+In the need of running only a subset of the evaluated solvers or a subset of our benchmark sets there are only a few minor modifications necessary. Our runner scripts are located within the ``zaligvinder``, namely
+
+- ``cav21.py`` performs the full run with all solvers on all benchmarks,
+- ``cav21_heu.py`` performs the heuristics experiment on all benchmarks,
+- ``cav21_sml.py`` performs the full run with all solvers on a randomly selected small subset of our benchmarks,
+- ``cav21_sml_heu.py`` performs the heuristics experiment on a randomly selected small subset of our benchmarks.
+
+We will demonstrate the configuration based on the ``cav21.py`` runner. 
+
+To disable a solver within one of our runners locate the list of solvers starting at line ``31``
+
+```
+for s in [tools.cvc4,
+          tools.ostrich,
+          tools.z3seq,
+          tools.z3str3,
+          tools.regExSolver,
+          tools.trau,
+]:
+```
+
+Afterwards deactivate a solver by simply commenting it (e.g. ``#tools.z3seq,``). 
+
+To only run a subset of our benchmarks locate the list of tracks starting at line ``23``.
+
+```
+tracks = (models.automatark.getTrackData()+
+          models.stringfuzzregexgenerated.getTrackData()+
+          models.stringfuzzregextransformed.getTrackData()+
+          models.RegExBenchmarks.getTrackData("RegEx Collected") +
+        []
+        )
+```
+
+Again, to deactivate a set, simply comment it (e.g. ``#models.stringfuzzregexgenerated.getTrackData()+``).
+
+You can start your run by using the provided scripts or simply executing ``python3 cav21.py``.
+
 === Further post analysis steps
 Within the ZaligVinder folder ``zaligvinder`` we stored the database of our experimental evaluation.
 
