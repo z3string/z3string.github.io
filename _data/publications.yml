@@ -7,7 +7,7 @@
 - name: "Z3str4: A Solver for Theories over Strings"
   paperurl: "https://uwspace.uwaterloo.ca/handle/10012/17102"
   authors: Murphy Berzish
-  conference: 33rd International Conference on Computer-Aided Verification (CAV 2021), Los Angeles, California, USA, July 18-23, 2021
+  conference: PhD. Thesis
   bibentry: "http://libwebappsprd01.uwaterloo.ca/cgi-bin/citation/citation.bib?hdl=10012/17102&type=Doctoral%20Thesis&year=2021"
   abstract: "https://uwspace.uwaterloo.ca/handle/10012/17102"
 - name: "An SMT Solver for Regular Expressions and Linear Arithmetic over String Length"
