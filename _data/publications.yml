@@ -1,3 +1,21 @@
+- name: "String Theories involving Regular Membership Predicates: From Practice to Theory and Back"
+  paperurl: "https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2"
+  authors: Murphy Berzish, Joel Day, Vijay Ganesh, Mitja Kulczynski, Florin Manea, Federico Mora, and Dirk Nowotka
+  conference: 13th International Conference on WORDS (WORDS 2021), Rouen, France, September 13-17, 2021 
+  bibentry: ""
+  abstract: ""
+- name: "Z3str4: A Solver for Theories over Strings"
+  paperurl: "https://uwspace.uwaterloo.ca/handle/10012/17102"
+  authors: Murphy Berzish
+  conference: 33rd International Conference on Computer-Aided Verification (CAV 2021), Los Angeles, California, USA, July 18-23, 2021
+  bibentry: "http://libwebappsprd01.uwaterloo.ca/cgi-bin/citation/citation.bib?hdl=10012/17102&type=Doctoral%20Thesis&year=2021"
+  abstract: "https://uwspace.uwaterloo.ca/handle/10012/17102"
+- name: "An SMT Solver for Regular Expressions and Linear Arithmetic over String Length"
+  paperurl: ""
+  authors: Murphy Berzish, Mitja Kulczynski, Federico Mora, Florin Manea, Joel Day, Dirk Nowotka, and Vijay Ganesh
+  conference: 33rd International Conference on Computer-Aided Verification (CAV 2021), Los Angeles, California, USA, July 18-23, 2021
+  bibentry: ""
+  abstract: ""
 - name: "The Satisfiability of Extended Word Equations: The Boundary Between Decidability and Undecidability"
   paperurl: "https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2"
   authors: Joel Day, Vijay Ganesh, Paul He, Florin Manea, and Dirk Nowotka
