@@ -11,11 +11,17 @@
   bibentry: "http://libwebappsprd01.uwaterloo.ca/cgi-bin/citation/citation.bib?hdl=10012/17102&type=Doctoral%20Thesis&year=2021"
   abstract: "https://uwspace.uwaterloo.ca/handle/10012/17102"
 - name: "An SMT Solver for Regular Expressions and Linear Arithmetic over String Length"
-  paperurl: ""
+  paperurl: "https://link.springer.com/chapter/10.1007/978-3-030-81688-9_14"
   authors: Murphy Berzish, Mitja Kulczynski, Federico Mora, Florin Manea, Joel Day, Dirk Nowotka, and Vijay Ganesh
   conference: 33rd International Conference on Computer-Aided Verification (CAV 2021), Los Angeles, California, USA, July 18-23, 2021
-  bibentry: ""
-  abstract: ""
+  bibentry: "https://citation-needed.springer.com/v2/references/10.1007/978-3-030-81688-9_14?format=bibtex&flavour=citation"
+  abstract: "https://link.springer.com/chapter/10.1007/978-3-030-81688-9_14#Abs1"
+- name: "Theory and Practice of String Solvers"
+  paperurl: "https://dl.acm.org/doi/10.1145/3293882.3338993"
+  authors: Adam Kiezun, Philip J. Guo, Pieter Hooimeijer, Michael D. Ernst, and Vijay Ganesh
+  conference: Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2019), Beijing, China, on July 15-19, 2019
+  bibentry: "https://dblp.org/rec/conf/issta/KiezunGHEG19.html?view=bibtex"
+  abstract: "https://dl.acm.org/doi/10.1145/3293882.3338993#d21482794e1"
 - name: "The Satisfiability of Extended Word Equations: The Boundary Between Decidability and Undecidability"
   paperurl: "https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2"
   authors: Joel Day, Vijay Ganesh, Paul He, Florin Manea, and Dirk Nowotka

@@ -3,7 +3,7 @@ layout: default
 title: Benchmarks
 ---
 
-We have provided the following benchmarks for demonstration purposes and independent evaluation of Z3str3 and other string solvers. The benchmarks are provided in SMT-LIB 2.5 format, following the latest draft of the theory for strings.
+We have provided the following benchmarks for demonstration purposes and independent evaluation of Z3str4 and other string solvers. The benchmarks are provided in SMT-LIB 2.5 format, following the latest draft of the theory for strings.
 
 [Kaluza](https://drive.google.com/open?id=15ZgdMB4r1sqHtne4CfNEQvwEc0ujB1dc) (ZIP, 35MB)
 

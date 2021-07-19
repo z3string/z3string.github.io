@@ -15,8 +15,8 @@ title: People
 ## Collaborators (in alphabetical order)
 
 * Joel Day, Loughborough University
-* [Mitja Kulczynski](https://www.informatik.uni-kiel.de/~mku), Kiel University
-* Florin Manea, Göttingen University
+* [Mitja Kulczynski](https://kulczyn.ski), Kiel University
+* [Florin Manea](https://www.uni-goettingen.de/de/team/620412.html), University of Göttingen 
 * Federico Mora, UC Berkeley
 * [Dirk Nowotka](http://zs.uni-kiel.de/en), Kiel University
 * [Sanu Subramanian](http://ca.linkedin.com/in/sanues/), University of Waterloo
