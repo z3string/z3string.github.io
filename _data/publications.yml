@@ -1,13 +1,19 @@
+- name: "Z3str4: A Multi-armed String Solver"
+  paperurl: "https://link.springer.com/chapter/10.1007/978-3-030-90870-6_21"
+  authors: Federico Mora, Murphy Berzish, Mitja Kulczynski, Dirk Nowotka, and Vijay Ganesh
+  conference: 24th International Symposium on Formal Methods (FM 2021), Virtual Event, November 20–26, 2021
+  bibentry: "https://citation-needed.springer.com/v2/references/10.1007/978-3-030-90870-6_21?format=bibtex&flavour=citation"
+  abstract: "https://link.springer.com/chapter/10.1007/978-3-030-90870-6_21"
 - name: "String Theories involving Regular Membership Predicates: From Practice to Theory and Back"
-  paperurl: ""
+  paperurl: "https://link.springer.com/chapter/10.1007/978-3-030-85088-3_5"
   authors: Murphy Berzish, Joel Day, Vijay Ganesh, Mitja Kulczynski, Florin Manea, Federico Mora, and Dirk Nowotka
   conference: 13th International Conference on WORDS (WORDS 2021), Rouen, France, September 13-17, 2021 
-  bibentry: ""
-  abstract: ""
+  bibentry: "https://citation-needed.springer.com/v2/references/10.1007/978-3-030-85088-3_5?format=bibtex&flavour=citation"
+  abstract: "https://link.springer.com/chapter/10.1007/978-3-030-85088-3_5"
 - name: "Z3str4: A Solver for Theories over Strings"
   paperurl: "https://uwspace.uwaterloo.ca/handle/10012/17102"
   authors: Murphy Berzish
-  conference: PhD. Thesis
+  conference: PhD. Thesis (2021)
   bibentry: "http://libwebappsprd01.uwaterloo.ca/cgi-bin/citation/citation.bib?hdl=10012/17102&type=Doctoral%20Thesis&year=2021"
   abstract: "https://uwspace.uwaterloo.ca/handle/10012/17102"
 - name: "An SMT Solver for Regular Expressions and Linear Arithmetic over String Length"
