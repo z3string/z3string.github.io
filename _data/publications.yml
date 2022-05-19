@@ -99,6 +99,6 @@
   paperurl: "https://ece.uwaterloo.ca/~vganesh/Publications_files/vg-ISSTA2009-Hampi.pdf"
   authors:  Adam Kiezun, Vijay Ganesh, Philip Guo, Pieter Hooimiejer, and Michael Ernst
   conference:  In Proceedings of the International Symposium on Testing and Analysis (<strong>ISSTA 2009</strong>), Chicago, USA, July 19-23, 2009
-  award:  <strong>ACM</strong> Distinguished Paper Award 2009
+  award:  ACM Distinguished Paper Award 2009
   bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/issta/KiezunGGHE09"
   abstract: "http://dl.acm.org/citation.cfm?doid=1572272.1572286"
