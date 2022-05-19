@@ -23,7 +23,7 @@ title: Publications / Presentations
   {% for item in site.data.presentations %}
   <li>
     {{ item.presenter }}, <b>{{ item.title }}</b>{% if item.slides %} [<a href="{{ item.slides }}">slides</a>]{% endif %} <br />
-    {% if item.conference %} <a href="{{ item.conferenceurl }}">{{ item.conference }}</a> {{ item.conferencedate }}<br />{% endif %}
+    {% if item.conference %} <strong href="{{ item.conferenceurl }}">{{ item.conference }}</strong> {{ item.conferencedate }}<br />{% endif %}
   </li> <br />
   {% endfor %}
 </ul>
