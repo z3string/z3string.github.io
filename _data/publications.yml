@@ -50,7 +50,7 @@
   paperurl: "https://ece.uwaterloo.ca/~vganesh/Publications_files/vg2016-Z3str2-FMSD2016-Journal.pdf"
   authors: Yunhui Zheng, Vijay Ganesh, Sanu Subramanian, Omer Tripp, Murphy Berzish,  Julian Dolby and Xiangyu Zhang
   conference:  Formal Methods in Systems Design, Volume 50, Issue 2, pp.249-288, June 2017
-  award:  Invited paper at the Formal Methods in Systems Design Journal (<strong>FMSD 2017</strong>)
+  award:  Invited paper at the Formal Methods in Systems Design Journal (FMSD 2017)
   bibentry: "http://dblp.uni-trier.de/rec/bibtex/journals/fmsd/ZhengGSTBDZ17"
   abstract: "http://link.springer.com/article/10.1007/s10703-016-0263-6?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst"
 - name: "A Solver for a Theory of Strings and Bit-Vectors"
@@ -67,7 +67,7 @@
   paperurl: "https://ece.uwaterloo.ca/~vganesh/Publications_files/vg2015-Z3str2-CAV15.pdf"
   authors: Yunhui Zheng, Vijay Ganesh, Sanu Subramanian, Omer Tripp, Julian Dolby and Xiangyu Zhang
   conference: The 27th International Conference on Computer Aided Verification (<strong>CAV 2015</strong>), Artifact Evaluated, July 2015
-  award: Paper selected for Formal Methods for System Design Journal, Special Issue dedicated to the Best Papers at <strong>CAV’15</strong>
+  award: Paper selected for Formal Methods for System Design Journal, Special Issue dedicated to the Best Papers at CAV’15
   bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/cav/ZhengGSTDZ15"
   abstract: "http://link.springer.com/chapter/10.1007%2F978-3-319-21690-4_14"
 - name: "Z3-str: a z3-based string solver for web application analysis"
