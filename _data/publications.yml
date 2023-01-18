@@ -2,6 +2,7 @@
   paperurl: "https://doi.org/10.1145/3571203"
   authors: Joel D. Day, Vijay Ganesh, Nathan Grewal, and Florin Manea
   conference: Proceedings of the ACM on Programming Languages (<strong>POPL</strong>), Volume 7, Issue POPL, Article No.: 10, pp 278-308, January 2023
+  bibentry: ""
   abstract: "https://doi.org/10.1145/3571203"
 - name: "Towards more efficient methods for solving regular-expression heavy string constraints"
   paperurl: "https://doi.org/10.1016/j.tcs.2022.12.009"
