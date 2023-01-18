@@ -1,3 +1,14 @@
+- name: "On the Expressive Power of String Constraints"
+  paperurl: "https://doi.org/10.1145/3571203"
+  authors: Joel D. Day, Vijay Ganesh, Nathan Grewal, and Florin Manea
+  conference: Proceedings of the ACM on Programming Languages (<strong>POPL</strong>), Volume 7, Issue POPL, Article No.: 10, pp 278-308, January 2023
+  abstract: "https://doi.org/10.1145/3571203"
+- name: "Towards more efficient methods for solving regular-expression heavy string constraints"
+  paperurl: "https://doi.org/10.1016/j.tcs.2022.12.009"
+  authors: Murphy Berzish, Joel D. Day, Vijay Ganesh, Mitja Kulczynski, Nathan Grewal, Florin Manea, Federico Mora, and Dirk Nowotka
+  conference: <strong>Theoretical Computer Science</strong>, Volume 943, pp 50-72, January 2023
+  bibentry: "https://dblp.uni-trier.de/rec/journals/tcs/BerzishDGKMMN23.html?view=bibtex"
+  abstract: "https://doi.org/10.1016/j.tcs.2022.12.009"
 - name: "Z3str4: A Multi-armed String Solver"
   paperurl: "https://link.springer.com/chapter/10.1007/978-3-030-90870-6_21"
   authors: Federico Mora, Murphy Berzish, Mitja Kulczynski, Dirk Nowotka, and Vijay Ganesh
@@ -7,7 +18,7 @@
 - name: "String Theories involving Regular Membership Predicates: From Practice to Theory and Back"
   paperurl: "https://link.springer.com/chapter/10.1007/978-3-030-85088-3_5"
   authors: Murphy Berzish, Joel Day, Vijay Ganesh, Mitja Kulczynski, Florin Manea, Federico Mora, and Dirk Nowotka
-  conference: 13th International Conference on WORDS (<strong>WORDS 2021</strong>), Rouen, France, September 13-17, 2021 
+  conference: 13th International Conference on WORDS (<strong>WORDS 2021</strong>), Rouen, France, September 13-17, 2021
   bibentry: "https://citation-needed.springer.com/v2/references/10.1007/978-3-030-85088-3_5?format=bibtex&flavour=citation"
   abstract: "https://link.springer.com/chapter/10.1007/978-3-030-85088-3_5"
 - name: "Z3str4: A Solver for Theories over Strings"
