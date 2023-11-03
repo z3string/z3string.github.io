@@ -9,14 +9,15 @@ title: People
 
 ## Main Authors
 
-* Murphy Berzish, University of Waterloo
-* [Yunhui Zheng](http://researcher.ibm.com/researcher/view.php?person=us-zhengyu), IBM T.J. Watson Research Center
+* John (Zhengyang) Lu, University of Waterloo - Z3alpha
+* Murphy Berzish, University of Waterloo - Z3str4, Z3str3
+* [Yunhui Zheng](http://researcher.ibm.com/researcher/view.php?person=us-zhengyu), IBM T.J. Watson Research Center - Z3str2
 
 ## Collaborators (in alphabetical order)
 
 * Joel Day, Loughborough University
 * [Mitja Kulczynski](https://kulczyn.ski), Kiel University
-* John Lu, University of Waterloo
+
 * [Florin Manea](https://www.uni-goettingen.de/de/team/620412.html), University of Göttingen 
 * Federico Mora, UC Berkeley
 * [Dirk Nowotka](http://zs.uni-kiel.de/en), Kiel University
