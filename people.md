@@ -9,9 +9,9 @@ title: People
 
 ## Main Authors
 
-* John (Zhengyang) Lu, University of Waterloo - Z3alpha
-* Murphy Berzish, University of Waterloo - Z3str4, Z3str3
-* [Yunhui Zheng](http://researcher.ibm.com/researcher/view.php?person=us-zhengyu), IBM T.J. Watson Research Center - Z3str2
+* John (Zhengyang) Lu, University of Waterloo
+* Murphy Berzish, University of Waterloo
+* [Yunhui Zheng](http://researcher.ibm.com/researcher/view.php?person=us-zhengyu), IBM T.J. Watson Research Center
 
 ## Collaborators (in alphabetical order)
 
