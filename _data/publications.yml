@@ -1,3 +1,15 @@
+- name: "Layered and Staged Monte Carlo Tree Search for SMT Strategy Synthesis"
+  paperurl: "https://www.ijcai.org/proceedings/2024/0211.pdf"
+  authors: Zhengyang Lu, Stefan Siemer, Piyush Jha, Joel D. Day, Florin Manea, and Vijay Ganesh
+  conference: In the Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence (<strong>IJCAI 2024</strong>), Jeju, South Korea, August 3-9, 2024
+  bibentry: "https://dblp.org/rec/conf/ijcai/LuSJDM024.html?view=bibtex"
+  abstract: "https://dl.acm.org/doi/10.24963/ijcai.2024/211"
+- name: "A Closer Look at the Expressive Power of Logics Based on Word Equations"
+  paperurl: "https://link.springer.com/article/10.1007/s00224-023-10154-8"
+  authors: Joel D. Day, Vijay Ganesh, Nathan Grewal, Matthew Konefal, and Florin Manea
+  conference: <strong>Theoretical Computer Science</strong>, Volume 68, pp 322-379, June 2024
+  bibentry: "https://dblp.org/rec/journals/mst/DayGGKM24.html?view=bibtex"
+  abstract: "https://link.springer.com/article/10.1007/s00224-023-10154-8"
 - name: "On the Expressive Power of String Constraints"
   paperurl: "https://doi.org/10.1145/3571203"
   authors: Joel D. Day, Vijay Ganesh, Nathan Grewal, and Florin Manea
