@@ -3,14 +3,14 @@ layout: default
 title: Getting Started
 ---
 
-Z3str3 is a constraint solver for the quantifier-free theory of string equations, the regular-expression membership predicates, and linear arithmetic over the length functions. Z3str3 is now part of the Z3 theorem prover's main codebase, and is the primary string solver in Z3.
+Z3str3 is a constraint solver for the quantifier-free theory of string equations, the regular-expression membership predicates, and linear arithmetic over the length functions. Z3str3 is part of the Z3 theorem prover's codebase.
 
-**Latest stable release: [Official Z3 Repository](https://github.com/z3prover/z3)**
+**Source code: [Official Z3 Repository](https://github.com/z3prover/z3)**
 
 ## Install
 
-1. Check out the latest version of Z3 from the [Z3 Git repository](https://github.com/z3prover/z3).
-2. Follow the included instructions to build Z3 from source, or download a binary release for your platform. Building with CMake is recommended.
+1. Check out the recommended [`z3-4.15.2` tag](https://github.com/Z3Prover/z3/tree/z3-4.15.2) from the [Z3 Git repository](https://github.com/z3prover/z3).
+2. Follow that version's included instructions to build Z3 from source, or download a matching [Z3 4.15.2 binary release](https://github.com/Z3Prover/z3/releases/tag/z3-4.15.2) for your platform. Building with CMake is recommended.
 3. Z3str3 can be used directly from the Z3 binary or the Z3 API.
 4. Enabling Z3str3 explicitly is recommended. This is done by setting the `smt.string_solver` parameter to `z3str3`. On the command line, this is passed as an argument before the name of the instance to solve, e.g. `z3 smt.string_solver=z3str3 instance.smt2`. Parameters can also be set using the Z3 API. Setting this option inside of an instance is _not recommended_ as this option is not portable to other tools.
 
