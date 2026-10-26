@@ -19,7 +19,7 @@ Z3str3 is a constraint solver for the quantifier-free theory of string equations
 We would like to thank the following people and teams for their valuable contributions, comments or suggestions:
 
 * Special thanks to the S3 string solver team for their generous help on integer/string theory integration.
-* CVC4 team for the valuable dicussions
+* CVC4 team for the valuable discussions
 * Benjamin Spencer for suggestions on fixing linking errors
 * Julian Thomé for suggestions on building Z3-str on Mac OS X
 * Julian Thomé for suggestions and contributions on improving the front-end string constraint encoding interface

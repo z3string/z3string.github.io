@@ -92,7 +92,7 @@
 - name: "Undecidability of a Theory of Strings, Linear Arithmetic over Length, and String-Number Conversion"
   paperurl: "https://arxiv.org/abs/1605.09442"
   authors: Vijay Ganesh and Murphy Berzish
-  conference: arXiv preprint 1605.094442, May 2016
+  conference: arXiv preprint 1605.09442, May 2016
   bibentry: "https://dblp.org/rec/journals/corr/GaneshB16.html?view=bibtex"
   abstract: "https://arxiv.org/abs/1605.09442"
 - name: "Effective Search-space Pruning for Solvers of String Equations, Regular Expressions and Length Constraints"
