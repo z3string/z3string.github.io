@@ -17,10 +17,10 @@ title: People
 * [Joel Day](https://www.lboro.ac.uk/departments/compsci/staff/joel-day/), Loughborough University
 * [Mitja Kulczynski](https://kulczyn.ski), Kiel University
 * [John Lu](https://johnlyu2.github.io/), University of Waterloo
-* [Florin Manea](https://www.uni-goettingen.de/de/team/620412.html), University of Göttingen 
+* [Florin Manea](https://flmanea.blogspot.com/), University of Göttingen
 * [Federico Mora](https://federico.morarocha.ca/), University of Waterloo
 * [Dirk Nowotka](https://www.uni-kiel.de/de/person/nowotka-dirk-3219), Kiel University
 * Paul Sarnighausen-Cahn, University of Göttingen
-* [Stefan Siemer](https://www.uni-goettingen.de/de/team/620412.html), University of Göttingen 
-* [Sanu Subramanian](http://ca.linkedin.com/in/sanues/), University of Waterloo
-* [Xiangyu Zhang](http://www.cs.purdue.edu/homes/xyzhang/), Purdue University
+* [Stefan Siemer](https://www.uni-goettingen.de/de/team/620412.html), University of Göttingen
+* [Sanu Subramanian](https://ca.linkedin.com/in/sanues/), University of Waterloo
+* [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/), Purdue University

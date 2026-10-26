@@ -1,8 +1,3 @@
-- name: "Learning Unified Graph and Language Representations for SMT Algorithm Selection"
-  paperurl: "https://drops.dagstuhl.de/storage/00lipics/lipics-vol379-cp2026/LIPIcs.CP.2026.41/LIPIcs.CP.2026.41.pdf"
-  authors: Zhengyang Lu, Paul Sarnighausen-Cahn, Jiahao Chen, Arie Gurfinkel, Florin Manea, and Vijay Ganesh
-  conference: "32nd International Conference on Principles and Practice of Constraint Programming (<strong>CP 2026</strong>), LIPIcs, Volume 379, pp 41:1-41:23, 2026"
-  abstract: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2026.41"
 - name: "Novel tree-search method for synthesizing SMT strategies"
   paperurl: "https://link.springer.com/article/10.1007/s00236-025-00495-x"
   authors: Zhengyang John Lu, Joel Day, Piyush Jha, Paul Sarnighausen-Cahn, Stefan Siemer, Florin Manea, and Vijay Ganesh
@@ -17,7 +12,7 @@
 - name: "A Closer Look at the Expressive Power of Logics Based on Word Equations"
   paperurl: "https://link.springer.com/article/10.1007/s00224-023-10154-8"
   authors: Joel D. Day, Vijay Ganesh, Nathan Grewal, Matthew Konefal, and Florin Manea
-  conference: <strong>Theoretical Computer Science</strong>, Volume 68, pp 322-379, June 2024
+  conference: <strong>Theory of Computing Systems</strong>, Volume 68, pp 322-379, June 2024
   bibentry: "https://dblp.org/rec/journals/mst/DayGGKM24.html?view=bibtex"
   abstract: "https://link.springer.com/article/10.1007/s00224-023-10154-8"
 - name: "Formal Languages via Theories over Strings: An Overview of Some Recent Results"
@@ -34,7 +29,7 @@
   paperurl: "https://doi.org/10.1016/j.tcs.2022.12.009"
   authors: Murphy Berzish, Joel D. Day, Vijay Ganesh, Mitja Kulczynski, Nathan Grewal, Florin Manea, Federico Mora, and Dirk Nowotka
   conference: <strong>Theoretical Computer Science</strong>, Volume 943, pp 50-72, January 2023
-  bibentry: "https://dblp.uni-trier.de/rec/journals/tcs/BerzishDGKMMN23.html?view=bibtex"
+  bibentry: "https://dblp.org/rec/journals/tcs/BerzishDGKMMN23.html?view=bibtex"
   abstract: "https://doi.org/10.1016/j.tcs.2022.12.009"
 - name: "Z3str4: A Multi-armed String Solver"
   paperurl: "https://link.springer.com/chapter/10.1007/978-3-030-90870-6_21"
@@ -60,36 +55,36 @@
   bibentry: "https://citation-needed.springer.com/v2/references/10.1007/978-3-030-81688-9_14?format=bibtex&flavour=citation"
   abstract: "https://link.springer.com/chapter/10.1007/978-3-030-81688-9_14#Abs1"
 - name: "Theory and Practice of String Solvers"
-  paperurl: "https://dl.acm.org/doi/10.1145/3293882.3338993"
+  paperurl: "https://conf.researchr.org/details/issta-2019/issta-2019-Technical-Papers/34/The-Theory-and-Practice-of-String-Solvers-Invited-Talk-Abstract-"
   authors: Adam Kiezun, Philip J. Guo, Pieter Hooimeijer, Michael D. Ernst, and Vijay Ganesh
   conference: Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis (<strong>ISSTA 2019</strong>), Beijing, China, on July 15-19, 2019
   bibentry: "https://dblp.org/rec/conf/issta/KiezunGHEG19.html?view=bibtex"
-  abstract: "https://dl.acm.org/doi/10.1145/3293882.3338993#d21482794e1"
+  abstract: "https://conf.researchr.org/details/issta-2019/issta-2019-Technical-Papers/34/The-Theory-and-Practice-of-String-Solvers-Invited-Talk-Abstract-"
 - name: "The Satisfiability of Extended Word Equations: The Boundary Between Decidability and Undecidability"
   paperurl: "https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2"
   authors: Joel Day, Vijay Ganesh, Paul He, Florin Manea, and Dirk Nowotka
   conference: The 12th International Conference on Reachability Problems (<strong>RP 2018</strong>), Marseille, France, September 24-26, 2018
-  bibentry: "https://dblp.uni-trier.de/rec/bibtex/conf/rp/DayGHMN18"
+  bibentry: "https://dblp.org/rec/conf/rp/DayGHMN18.html?view=bibtex"
   abstract: "https://link.springer.com/chapter/10.1007%2F978-3-030-00250-3_2"
 - name: "StringFuzz: A Fuzzer for String Solvers"
   paperurl: "https://drive.google.com/file/d/11maR7uDIlkd-f7ry5VBUVz-txUcd_FFU/view?usp=sharing"
   authors: Dmitry Blotsky, Federico Mora, Murphy Berzish, Yunhui Zheng, Ifaz Kabir, and Vijay Ganesh
   conference: The 30th International Conference on Computer Aided Verification (<strong>CAV 2018</strong>), Oxford, United Kingdom, July 14-17, 2018
-  bibentry: "https://dblp.org/rec/conf/cav/BlotskyMBZKG18"
+  bibentry: "https://dblp.org/rec/conf/cav/BlotskyMBZKG18.html?view=bibtex"
   abstract: "https://link.springer.com/chapter/10.1007%2F978-3-319-96142-2_6"
 - name: "Z3str3: A String Solver with Theory-Aware Heuristics"
   paperurl: "https://drive.google.com/open?id=19N8kQkZUW2hWa7utTER93DW4vkx8dyJa"
   authors: Murphy Berzish, Vijay Ganesh, and Yunhui Zheng
   conference: Formal Methods in Computer-Aided Design (<strong>FMCAD</strong>), Vienna, Austria, October 2017
-  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/fmcad/BerzishGZ17"
+  bibentry: "https://dblp.org/rec/conf/fmcad/BerzishGZ17.html?view=bibtex"
   abstract: "http://ieeexplore.ieee.org/abstract/document/8102241/"
 - name: "Z3str2: An Efficient Solver for Strings, Regular Expressions, and Length Constraints"
   paperurl: "https://link.springer.com/article/10.1007/s10703-016-0263-6"
   authors: Yunhui Zheng, Vijay Ganesh, Sanu Subramanian, Omer Tripp, Murphy Berzish,  Julian Dolby and Xiangyu Zhang
   conference:  Formal Methods in Systems Design, Volume 50, Issue 2, pp.249-288, June 2017
   award:  Invited paper at the Formal Methods in Systems Design Journal (FMSD 2017)
-  bibentry: "http://dblp.uni-trier.de/rec/bibtex/journals/fmsd/ZhengGSTBDZ17"
-  abstract: "http://link.springer.com/article/10.1007/s10703-016-0263-6?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst"
+  bibentry: "https://dblp.org/rec/journals/fmsd/ZhengGSTBDZ17.html?view=bibtex"
+  abstract: "https://link.springer.com/article/10.1007/s10703-016-0263-6"
 - name: "A Solver for a Theory of Strings and Bit-Vectors"
   paperurl: "https://arxiv.org/pdf/1605.09446v1"
   authors: Murphy Berzish, Sanu Subramanian, Omer Tripp, and Vijay Ganesh
@@ -98,44 +93,44 @@
   paperurl: "https://arxiv.org/abs/1605.09442"
   authors: Vijay Ganesh and Murphy Berzish
   conference: arXiv preprint 1605.094442, May 2016
-  bibentry: "http://dblp.uni-trier.de/rec/bibtex/journals/corr/GaneshB16"
+  bibentry: "https://dblp.org/rec/journals/corr/GaneshB16.html?view=bibtex"
   abstract: "https://arxiv.org/abs/1605.09442"
 - name: "Effective Search-space Pruning for Solvers of String Equations, Regular Expressions and Length Constraints"
   paperurl: "https://link.springer.com/chapter/10.1007/978-3-319-21690-4_14"
   authors: Yunhui Zheng, Vijay Ganesh, Sanu Subramanian, Omer Tripp, Julian Dolby and Xiangyu Zhang
   conference: The 27th International Conference on Computer Aided Verification (<strong>CAV 2015</strong>), Artifact Evaluated, July 2015
   award: Paper selected for Formal Methods for System Design Journal, Special Issue dedicated to the Best Papers at CAV’15
-  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/cav/ZhengGSTDZ15"
-  abstract: "http://link.springer.com/chapter/10.1007%2F978-3-319-21690-4_14"
+  bibentry: "https://dblp.org/rec/conf/cav/ZhengGSTDZ15.html?view=bibtex"
+  abstract: "https://link.springer.com/chapter/10.1007/978-3-319-21690-4_14"
 - name: "Z3-str: a z3-based string solver for web application analysis"
   paperurl: "https://www.cs.purdue.edu/homes/xyzhang/Comp/fse13.pdf"
   authors: Yunhui Zheng, Xiangyu Zhang and Vijay Ganesh
   conference: In Proceedings of the 2013 9th Joint Meeting on Foundations of Software Engineering (<strong>ESEC/FSE 2013</strong>) , Saint Petersburg, Russia, Aug. 18-26, 2013
-  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/sigsoft/ZhengZG13"
-  abstract: "http://dl.acm.org/citation.cfm?doid=2491411.2491456"
+  bibentry: "https://dblp.org/rec/conf/sigsoft/ZhengZG13.html?view=bibtex"
+  abstract: "https://doi.org/10.1145/2491411.2491456"
 - name: "Hampi: A Solver for Word Equations over Strings, Regular Expressions and Context-Free Grammar"
   paperurl: "https://homes.cs.washington.edu/~mernst/pubs/string-solver-tosem2012.pdf"
   authors:  Vijay Ganesh, Adam Kiezun, Philip Guo, Pieter Hooimiejer, and Michael Ernst
   conference:  ACM Transactions of Software Engineering Methodology, Volume 21, Issue 4 (<strong>TOSEM 2012</strong>)
   award:  Invited Paper to the ACM TOSEM Journal 2012
-  bibentry: "http://dblp.uni-trier.de/rec/bibtex/journals/tosem/KiezunGAGHE12"
-  abstract: "http://dl.acm.org/citation.cfm?doid=2377656.2377662"
+  bibentry: "https://dblp.org/rec/journals/tosem/KiezunGAGHE12.html?view=bibtex"
+  abstract: "https://homes.cs.washington.edu/~mernst/pubs/string-solver-tosem2012-abstract.html"
 - name: "Word Equations with Length Constraints: What's Decidable?"
   paperurl: "https://link.springer.com/chapter/10.1007/978-3-642-39611-3_21"
   authors:  Vijay Ganesh, Mia Minnes, Armando Solar-Lezama, and Martin Rinard
   conference:  In the 8th International Haifa Verification Conference (<strong>HVC 2012</strong>), Haifa, Israel, Nov. 6-8, 2012
-  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/hvc/GaneshMSR12"
-  abstract: "http://link.springer.com/chapter/10.1007%2F978-3-642-39611-3_21"
+  bibentry: "https://dblp.org/rec/conf/hvc/GaneshMSR12.html?view=bibtex"
+  abstract: "https://link.springer.com/chapter/10.1007/978-3-642-39611-3_21"
 - name: "Hampi: A String Solver for Testing, Analysis, and Vulnerability Detection"
   paperurl: "https://people.csail.mit.edu/akiezun/hampi-cav2011.pdf"
   authors:  Vijay Ganesh, Adam Kiezun, Shay Artzi, Philip Guo, Pieter Hooimiejer, and Michael Ernst
   conference:  In Proceedings of the International Conference in Computer Aided Verification (<strong>CAV 2011</strong>), Snowbird, Utah, July 2011
-  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/cav/GaneshKAGHE11"
+  bibentry: "https://dblp.org/rec/conf/cav/GaneshKAGHE11.html?view=bibtex"
   abstract: "https://link.springer.com/chapter/10.1007/978-3-642-22110-1_1"
 - name: "Hampi: A Solver for String Constraints"
   paperurl: "https://people.csail.mit.edu/akiezun/issta54-kiezun.pdf"
   authors:  Adam Kiezun, Vijay Ganesh, Philip Guo, Pieter Hooimiejer, and Michael Ernst
   conference:  In Proceedings of the International Symposium on Testing and Analysis (<strong>ISSTA 2009</strong>), Chicago, USA, July 19-23, 2009
   award:  ACM Distinguished Paper Award 2009
-  bibentry: "http://dblp.uni-trier.de/rec/bibtex/conf/issta/KiezunGGHE09"
-  abstract: "http://dl.acm.org/citation.cfm?doid=1572272.1572286"
+  bibentry: "https://dblp.org/rec/conf/issta/KiezunGGHE09.html?view=bibtex"
+  abstract: "https://people.csail.mit.edu/akiezun/hampi/"

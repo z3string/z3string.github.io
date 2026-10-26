@@ -1,6 +1,6 @@
 - presenter: John Zhengyang Lu
   title: "Monte Carlo Tree Search for SMT Strategy Synthesis with Applications to String Constraints"
-  slides: "https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-john-lu.pptx"
+  slides: "https://raw.githubusercontent.com/mosca2025/mosca2025.github.io/master/slides/mosca25-john-lu.pptx"
   conference: MOSCA 2025
   conferenceurl: "https://mosca2025.github.io/"
   conferencedate: "Zagreb, Croatia. July 22, 2025"
@@ -29,7 +29,7 @@
   title: "Z3str3: A String Solver with Theory-Aware Heuristics"
   slides: "https://smt-workshop.cs.uiowa.edu/2017/slides/smt2017-Z3str3.pdf"
   conference: SMT 2017
-  conferenceurl: "http://smt-workshop.cs.uiowa.edu/2017/"
+  conferenceurl: "https://smt-workshop.cs.uiowa.edu/2017/"
   conferencedate: "(presentation-only paper). Heidelberg, Germany. July 2017"
 - presenter: Murphy Berzish
   title: "Z3str3: A DPLL(T) Solver for a Theory of Strings and Integers"
@@ -41,7 +41,7 @@
   title: "Z3strBV: A Solver for a Theory of Strings and Bit-vectors"
   slides: "https://smt-workshop.cs.uiowa.edu/2016/slides/berzish.pdf"
   conference: SMT 2016
-  conferenceurl: "http://smt-workshop.cs.uiowa.edu/2016/"
+  conferenceurl: "https://smt-workshop.cs.uiowa.edu/2016/"
   conferencedate: "(presentation-only paper). Coimbra, Portugal. July 2016"
 - presenter: Yunhui Zheng
   title: "A String, Regular Expression, and Integer Solver for Bug-finding and Security"
